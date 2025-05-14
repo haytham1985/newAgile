@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile Slides with Arabic Translation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Using Roboto as a common, clean font */
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .slide-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+            padding: 30px; /* Increased padding */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+        }
+        .slide-original h2, .slide-translation h2 {
+            color: #0056b3; /* A shade of blue for headings */
+            border-bottom: 2px solid #007bff; /* Blue border */
+            padding-bottom: 15px; /* Increased padding below heading */
+            margin-bottom: 20px; /* Increased margin below heading */
+            font-size: 1.8em; /* Larger heading font size */
+            font-weight: 700; /* Bold headings */
+        }
+        .slide-translation {
+            border-top: 2px dashed #007bff; /* Blue dashed border */
+            margin-top: 30px; /* Increased margin above translation */
+            padding-top: 30px; /* Increased padding above translation */
+            direction: rtl; /* Right-to-left for Arabic */
+            text-align: right;
+        }
+        .slide-translation h2 {
+             border-bottom-color: #007bff; /* Match original border color */
+        }
+         .slide-original p, .slide-translation p,
+         .slide-original li, .slide-translation li {
+             font-size: 1.1em; /* Slightly larger body text */
+             margin-bottom: 10px; /* Space between paragraphs/list items */
+         }
+        .slide-translation ul {
+            padding-right: 30px; /* Adjust padding for RTL list */
+            padding-left: 0;
+        }
+         .slide-original ul {
+             padding-left: 30px; /* Padding for LTR list */
+         }
+        .slide-translation li {
+            margin-bottom: 10px;
+        }
+        .page-separator {
+            border: none;
+            height: 5px; /* Thicker separator */
+            background-color: #007bff;
+            margin: 50px 0; /* More space around separator */
+        }
+        /* Styling for tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px; /* More space above table */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px; /* More padding in table cells */
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef; /* Light grey background for headers */
+            font-weight: 700;
+            color: #495057;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f8f9fa; /* Zebra striping for rows */
+        }
+         .slide-translation table {
+             text-align: right; /* Align table content right for RTL */
+         }
+         .slide-translation th {
+             background-color: #e9ecef; /* Keep header background */
+         }
+         .slide-original em, .slide-translation em {
+             font-style: italic;
+             color: #555;
+         }
+    </style>
+</head>
+<body>
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 1: The Agile Manifesto</h2>
+            <p>"Individuals and interactions over Processes and Tools"</p>
+            <p>"Working Product over Comprehensive Documentation"</p>
+            <p>"Customer Collaboration over Contract Negotiation"</p>
+            <p>"Responding to change over Following a plan"</p>
+            <p>That is, while there is value in the items on the right, we value the items on the left more.</p>
+            <p>www.agilemanifesto.org</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 1: بيان أجايل</h2>
+            <p>"الأفراد والتفاعلات أهم من العمليات والأدوات"</p>
+            <p>"المنتج العامل أهم من التوثيق الشامل"</p>
+            <p>"تعاون العملاء أهم من التفاوض على العقود"</p>
+            <p>"الاستجابة للتغيير أهم من اتباع خطة"</p>
+            <p>أي أنه على الرغم من وجود قيمة في العناصر الموجودة على اليمين، فإننا نقدر العناصر الموجودة على اليسار أكثر.</p>
+            <p>www.agilemanifesto.org</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 2: Agile Definition</h2>
+            <p>• Agile is a group of software development processes that are:</p>
+            <ul>
+                <li>Iterative</li>
+                <li>Incremental</li>
+                <li>Self-organizing.</li>
+            </ul>
+            <p>11</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 2: تعريف أجايل</h2>
+            <p>• أجايل هي مجموعة من عمليات تطوير البرمجيات التي تتسم بما يلي:</p>
+            <ul>
+                <li>تكرارية (Iterative)</li>
+                <li>تزايدية (Incremental)</li>
+                <li>ذاتية التنظيم (Self-organizing).</li>
+            </ul>
+            <p>11</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 3: Agile Principles</h2>
+            <ol>
+                <li>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.</li>
+                <li>Welcome changing requirements, even late in development.</li>
+                <li>Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale.</li>
+                <li>Business people and developers must work together daily through the project.</li>
+            </ol>
+            <p>12</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 3: مبادئ أجايل</h2>
+            <ol>
+                <li>أولويتنا القصوى هي إرضاء العميل من خلال التسليم المبكر والمستمر للبرمجيات القيمة.</li>
+                <li>نرحب بتغيير المتطلبات، حتى في وقت متأخر من التطوير.</li>
+                <li>تسليم برمجيات عاملة بشكل متكرر، من بضعة أسابيع إلى بضعة أشهر، مع تفضيل النطاق الزمني الأقصر.</li>
+                <li>يجب أن يعمل رجال الأعمال والمطورون معًا بشكل يومي طوال المشروع.</li>
+            </ol>
+            <p>12</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 4: Agile Principles</h2>
+            <ol start="5">
+                <li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li>
+                <li>The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.</li>
+                <li>Working software is the primary measure of progress.</li>
+            </ol>
+            <p>13</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 4: مبادئ أجايل</h2>
+            <ol start="5">
+                <li>بناء المشاريع حول أفراد متحمسين. امنحهم البيئة والدعم الذي يحتاجونه، وثق بهم في إنجاز العمل.</li>
+                <li>الطريقة الأكثر كفاءة وفعالية لنقل المعلومات إلى فريق التطوير وداخله هي المحادثة وجهًا لوجه.</li>
+                <li>البرمجيات العاملة هي المقياس الأساسي للتقدم.</li>
+            </ol>
+            <p>13</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 5: Agile Principles</h2>
+            <ol start="8">
+                <li>The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li>
+                <li>Simplicity – the art of maximizing the amount of work not done.</li>
+                <li>The best architectures, requirements, and designs emerge from self-organizing teams.</li>
+            </ol>
+            <p>14</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 5: مبادئ أجايل</h2>
+            <ol start="8">
+                <li>يجب أن يكون الرعاة والمطورون والمستخدمون قادرين على الحفاظ على وتيرة ثابتة إلى أجل غير مسمى.</li>
+                <li>البساطة - فن تعظيم كمية العمل الذي لم يتم إنجازه.</li>
+                <li>أفضل الهياكل والمتطلبات والتصاميم تنبثق من فرق ذاتية التنظيم.</li>
+            </ol>
+            <p>14</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 6: Agile Characteristics</h2>
+            <ul>
+                <li>Modularity on development process level.</li>
+                <li>Iterative with short cycles enabling fast verifications and corrections.</li>
+                <li>Time-bound with iteration cycles from one to six weeks.</li>
+                <li>Adaptive with possible emergent new risks.</li>
+                <li>People-oriented.</li>
+                <li>Collaborative and communicative working style.</li>
+            </ul>
+            <p>15</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 6: خصائص أجايل</h2>
+            <ul>
+                <li>النمطية على مستوى عملية التطوير.</li>
+                <li>تكرارية مع دورات قصيرة تتيح التحققات والتصحيحات السريعة.</li>
+                <li>محددة بوقت مع دورات تكرارية تتراوح من أسبوع إلى ستة أسابيع.</li>
+                <li>تكيفية مع مخاطر جديدة محتملة ناشئة.</li>
+                <li>موجهة نحو الأشخاص.</li>
+                <li>أسلوب عمل تعاوني وتواصلي.</li>
+            </ul>
+            <p>15</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 7: Advantages of Agile</h2>
+            <p>The incremental nature of agile development enabling to be realized early as the product continues to develop.</p>
+            <p>Small incremental releases are visible to the product owner and product team through its development which help us to identify any issues early and make it easier to respond to change.</p>
+            <p>16</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 7: مزايا أجايل</h2>
+            <p>الطبيعة التزايدية لتطوير أجايل تمكن من تحقيقها مبكرًا مع استمرار تطوير المنتج.</p>
+            <p>الإصدارات التزايدية الصغيرة مرئية لمالك المنتج وفريق المنتج من خلال تطويره مما يساعدنا على تحديد أي مشاكل مبكرًا ويجعل الاستجابة للتغيير أسهل.</p>
+            <p>16</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 8: Advantages of Agile</h2>
+            <p>Agility refers to:</p>
+            <ul>
+                <li>Accept the changes</li>
+                <li>Customer satisfaction</li>
+                <li>Producing the right product</li>
+            </ul>
+            <p>17</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 8: مزايا أجايل</h2>
+            <p>تشير المرونة إلى:</p>
+            <ul>
+                <li>قبول التغييرات</li>
+                <li>رضا العملاء</li>
+                <li>إنتاج المنتج الصحيح</li>
+            </ul>
+            <p>17</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 9: Extreme Programming (XP)</h2>
+            <p>Extreme programming methodology is best suited for use on a new or incomplete projects where the requirements are incomplete and expected to change frequently during the project.</p>
+            <p>XP is more focusing on actual development process.</p>
+            <p>XP was designed for small project teams between two to twelve team members.</p>
+            <p>19</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 9: البرمجة المتطرفة (XP)</h2>
+            <p>منهجية البرمجة المتطرفة هي الأنسب للاستخدام في المشاريع الجديدة أو غير المكتملة حيث تكون المتطلبات غير مكتملة ومن المتوقع أن تتغير بشكل متكرر خلال المشروع.</p>
+            <p>تركز XP بشكل أكبر على عملية التطوير الفعلية.</p>
+            <p>تم تصميم XP لفرق المشاريع الصغيرة بين عضوين واثني عشر عضوًا في الفريق.</p>
+            <p>19</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 10: XP Values</h2>
+            <p>Respect</p>
+            <p>Communication</p>
+            <p>Courage</p>
+            <p>Simplicity</p>
+            <p>Feedback</p>
+            <p>21</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 10: قيم XP</h2>
+            <p>الاحترام</p>
+            <p>التواصل</p>
+            <p>الشجاعة</p>
+            <p>البساطة</p>
+            <p>التغذية الراجعة (Feedback)</p>
+            <p>21</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 11: XP Roles</h2>
+            <p> Manager, owns the team and its problems. He or she forms the team, obtain resources, manage people and problems, and interfaces with external groups.</p>
+            <p>27</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 11: أدوار XP</h2>
+            <p> المدير، يمتلك الفريق ومشاكله. يقوم بتشكيل الفريق، والحصول على الموارد، وإدارة الأشخاص والمشاكل، والتواصل مع المجموعات الخارجية.</p>
+            <p>27</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 12: XP Roles</h2>
+            <p> Coach, teaches team members about the XP process as necessary, intervenes in case of issues; monitors whether the XP process is being followed. The coach is typically a programmer and not a manager.</p>
+            <p>28</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 12: أدوار XP</h2>
+            <p> المدرب، يعلم أعضاء الفريق حول عملية XP حسب الضرورة، يتدخل في حالة وجود مشاكل؛ يراقب ما إذا كان يتم اتباع عملية XP. المدرب عادة ما يكون مبرمجًا وليس مديرًا.</p>
+            <p>28</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 13: XP Roles</h2>
+            <p> Tracker, regularly collects user story and acceptance test case progress from the developers to create the visible wall graphs. The tracker is a programmer, not a manager or customer.</p>
+            <p>29</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 13: أدوار XP</h2>
+            <p> المتعقب، يجمع بانتظام تقدم قصص المستخدم وحالات اختبار القبول من المطورين لإنشاء رسوم بيانية جدارية مرئية. المتعقب هو مبرمج، وليس مديرًا أو عميلاً.</p>
+            <p>29</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 14: XP Roles</h2>
+            <p> Programmer, writes tests, design, and code; refactors; identifies and estimates tasks and stories (this person may also be a tester)</p>
+            <p>30</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 14: أدوار XP</h2>
+            <p> المبرمج، يكتب الاختبارات والتصميم والكود؛ يعيد هيكلة الكود؛ يحدد المهام والقصص ويقدرها (قد يكون هذا الشخص أيضًا مختبرًا)</p>
+            <p>30</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 15: XP Roles</h2>
+            <p> Tester, helps customers write and develop tests (this person may also be a programmer)</p>
+            <p>31</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 15: أدوار XP</h2>
+            <p> المختبر، يساعد العملاء في كتابة وتطوير الاختبارات (قد يكون هذا الشخص أيضًا مبرمجًا)</p>
+            <p>31</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 16: XP Roles</h2>
+            <p> Customer, writes stories and acceptance tests; picks stories for a release and for an iteration.</p>
+            <p>32</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 16: أدوار XP</h2>
+            <p> العميل، يكتب القصص واختبارات القبول؛ يختار القصص للإصدار وللتكرار.</p>
+            <p>32</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 17: The Values, Practices, and Phases of XP</h2>
+            <p>36</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 17: قيم وممارسات ومراحل XP</h2>
+            <p>36</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 18: SCRUM</h2>
+            <p>The main idea of scrum is that systems development involves several environmental and technical variables (e.g. requirements, time fame, resources, and technology) that are likely to change during the process.</p>
+            <p> The scrum is a method suitable for small teams of less than 10 persons.</p>
+            <p>The scrum is a method suitable for Distributed teams.</p>
+            <p>37</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 18: سكروم (SCRUM)</h2>
+            <p>الفكرة الرئيسية لسكروم هي أن تطوير الأنظمة يتضمن العديد من المتغيرات البيئية والتقنية (مثل المتطلبات، الإطار الزمني، الموارد، والتكنولوجيا) التي من المحتمل أن تتغير خلال العملية.</p>
+            <p> سكروم هي طريقة مناسبة للفرق الصغيرة التي تقل عن 10 أشخاص.</p>
+            <p>سكروم هي طريقة مناسبة للفرق الموزعة.</p>
+            <p>37</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 19: Scrum Roles</h2>
+            <p> Product Owner, the person who is responsible for creating and prioritizing the Product Backlog, choosing what will be included in the next iteration/Sprint, and reviewing the system (with other stakeholders) at the end of the Sprint.</p>
+            <p>42</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 19: أدوار سكروم</h2>
+            <p> مالك المنتج، هو الشخص المسؤول عن إنشاء وتحديد أولويات قائمة مهام المنتج (Product Backlog)، واختيار ما سيتم تضمينه في التكرار/السباق (Sprint) التالي، ومراجعة النظام (مع أصحاب المصلحة الآخرين) في نهاية السباق.</p>
+            <p>42</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 20: Scrum Roles</h2>
+            <p> Scrum Master, knows and reinforces the product iteration and goals and the Scrum values and practices, conducts the daily meeting (the Scrum Meeting) and the iteration demonstration (the Sprint Review), listens to progress, removes impediments (blocks), and provides resources.</p>
+            <p>43</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 20: أدوار سكروم</h2>
+            <p> قائد سكروم (Scrum Master)، يعرف ويعزز تكرار المنتج والأهداف وقيم وممارسات سكروم، يدير الاجتماع اليومي (اجتماع سكروم) وعرض التكرار (مراجعة السباق)، يستمع إلى التقدم، يزيل المعوقات (البلوكات)، ويوفر الموارد.</p>
+            <p>43</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 21: Scrum Roles</h2>
+            <p> Developer, member of the Scrum team. The Scrum Team is committed to achieving a Sprint Goal and has full authority to do whatever it takes to achieve the goal. The size of a Scrum team is seven, plus or minus two.</p>
+            <p>44</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 21: أدوار سكروم</h2>
+            <p> المطور، عضو في فريق سكروم. يلتزم فريق سكروم بتحقيق هدف السباق (Sprint Goal) ولديه السلطة الكاملة للقيام بكل ما يلزم لتحقيق الهدف. حجم فريق سكروم هو سبعة أعضاء، زائد أو ناقص اثنين.</p>
+            <p>44</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 22: COCOMO</h2>
+            <p> The Constructive Cost Model (COCOMO) is the most widely used software estimation model in the world.</p>
+            <p> The COCOMO model predicts the effort and duration of a project based on inputs relating to the size of the resulting systems and a number of "cost drivers" that affect productivity.</p>
+            <p>12</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 22: كوكومو (COCOMO)</h2>
+            <p> نموذج التكلفة البنائية (COCOMO) هو نموذج تقدير البرمجيات الأكثر استخدامًا في العالم.</p>
+            <p> يتنبأ نموذج COCOMO بالجهد والمدة اللازمة للمشروع بناءً على المدخلات المتعلقة بحجم الأنظمة الناتجة وعدد من "محركات التكلفة" التي تؤثر على الإنتاجية.</p>
+            <p>12</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 23: Story Point’s formulas</h2>
+            <p> The story point's estimation formulas showed in Eq. (1), Eq. (2), and Eq. (3):</p>
+            <p><em>[Formulas are not provided in the text, only referenced]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 23: صيغ نقاط القصة</h2>
+            <p> صيغ تقدير نقاط القصة الموضحة في المعادلة (1)، المعادلة (2)، والمعادلة (3):</p>
+             <p><em>[الصيغ غير متوفرة في النص، تم الإشارة إليها فقط]</em></p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 24: Experimental Analysis</h2>
+            <p> In this section, a sample of dataset which extracted from COCOMONASA2 dataset will be used.</p>
+            <p> It was collected from six NASA centers and covers a wide range of software domains, development process, languages and complexity, as well as fundamental differences in culture and business practices between each center [21].</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 24: التحليل التجريبي</h2>
+            <p> في هذا القسم، سيتم استخدام عينة من مجموعة البيانات المستخرجة من مجموعة بيانات COCOMONASA2.</p>
+            <p> تم جمعها من ستة مراكز تابعة لوكالة ناسا وتغطي مجموعة واسعة من مجالات البرمجيات، وعمليات التطوير، واللغات والتعقيد، بالإضافة إلى الاختلافات الأساسية في الثقافة وممارسات الأعمال بين كل مركز [21].</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 25: Experimental Analysis</h2>
+            <p> Magnitude of Relative Error (MRE) and Prediction Level (PRED) metrics.</p>
+            <p> Eq. (12) shows the MRE which is used to measure the error contained in the estimated value regardless of whether the error is positive or negative.</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 25: التحليل التجريبي</h2>
+            <p> مقاييس حجم الخطأ النسبي (MRE) ومستوى التنبؤ (PRED).</p>
+            <p> المعادلة (12) توضح MRE الذي يستخدم لقياس الخطأ الموجود في القيمة المقدرة بغض النظر عما إذا كان الخطأ موجبًا أم سالبًا.</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 26: Applying GQM Method to XP Practices</h2>
+            <p>51</p>
+            <p>Nagy Ramadan Darwish, (IJCSIS) International Journal of Computer Science and Information Security, Vol. 9, No. 11, 2011</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 26: تطبيق طريقة GQM على ممارسات XP</h2>
+            <p>51</p>
+            <p>Nagy Ramadan Darwish, (IJCSIS) International Journal of Computer Science and Information Security, Vol. 9, No. 11, 2011</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 27: GQM</h2>
+            <p> Quality Metric (GQM) Method is one of the software measurement methods.</p>
+            <p>52</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 27: GQM</h2>
+            <p> طريقة مقياس الجودة (GQM) هي إحدى طرق قياس البرمجيات.</p>
+            <p>52</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 28: GQM Method and XP Practice</h2>
+            <p>53</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 28: طريقة GQM وممارسة XP</h2>
+            <p>53</p>
+            <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 29</h2>
+             <p>54</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 29</h2>
+            <p>54</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 30</h2>
+             <p>55</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 30</h2>
+            <p>55</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 31: Radar Chart</h2>
+            <p>18 [Richard and Boehm ,2003]</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 31: مخطط الرادار</h2>
+            <p>18 [Richard and Boehm ,2003]</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 32: Agile SPM</h2>
+            <p> This method enables customers to flexibly define requirements according to a pre-defined procedure.</p>
+            <p> Agile SPM has a role in dealing with large projects on the high level of management.</p>
+            <p> The major role of management in this layer is to defined and produced roles, regulation and convention standards that facilitate the links and interfaces between project modules.</p>
+            <p>33</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 32: إدارة أداء المشروع المرنة (Agile SPM)</h2>
+            <p> تمكن هذه الطريقة العملاء من تحديد المتطلبات بمرونة وفقًا لإجراء محدد مسبقًا.</p>
+            <p> تلعب Agile SPM دورًا في التعامل مع المشاريع الكبيرة على مستوى الإدارة العليا.</p>
+            <p> الدور الرئيسي للإدارة في هذه الطبقة هو تحديد وإنتاج الأدوار واللوائح ومعايير الاتفاقيات التي تسهل الروابط والواجهات بين وحدات المشروع.</p>
+            <p>33</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 33: Agile SPM</h2>
+            <p> Agile requirement refinery includes four stages, namely:</p>
+            <ul>
+                <li>Vision.</li>
+                <li>Theme.</li>
+                <li>Concept.</li>
+                <li>Requirements Definition.</li>
+            </ul>
+            <p>34</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 33: إدارة أداء المشروع المرنة (Agile SPM)</h2>
+            <p> تصفية متطلبات Agile تتضمن أربع مراحل، وهي:</p>
+            <ul>
+                <li>الرؤية (Vision).</li>
+                <li>الموضوع (Theme).</li>
+                <li>المفهوم (Concept).</li>
+                <li>تعريف المتطلبات (Requirements Definition).</li>
+            </ul>
+            <p>34</p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 34: Requirements Definition</h2>
+             <p>35</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 34: تعريف المتطلبات</h2>
+            <p>35</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 35: Proposed framework</h2>
+             <p>36</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 35: الإطار المقترح</h2>
+            <p>36</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 36: 4-Dimensional Analytical Tools (DAT)</h2>
+            <p>37</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 36: أدوات التحليل رباعية الأبعاد (DAT)</h2>
+            <p>37</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 37: 4-Dimensional Analytical Tools (DAT)</h2>
+            <p> The scope dimension checks the support of a method in terms of :</p>
+            <ul>
+                <li>Project size</li>
+                <li>Team size</li>
+                <li>Development style</li>
+                <li>Code style</li>
+                <li>Technology environment</li>
+                <li>Physical environment</li>
+                <li>Business culture</li>
+            </ul>
+            <p>38</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 37: أدوات التحليل رباعية الأبعاد (DAT)</h2>
+            <p> يتحقق بُعد النطاق من دعم الطريقة من حيث:</p>
+            <ul>
+                <li>حجم المشروع</li>
+                <li>حجم الفريق</li>
+                <li>أسلوب التطوير</li>
+                <li>أسلوب الكود</li>
+                <li>بيئة التكنولوجيا</li>
+                <li>البيئة المادية</li>
+                <li>ثقافة الأعمال</li>
+            </ul>
+            <p>38</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 38: 4-Dimensional Analytical Tools (DAT)</h2>
+            <p> The Agile values dimension is a quantitative dimension that checks the existence of agility in agile methods at both a process and practice levels.</p>
+            <p> The agility dimension examines the support of agile values characterization in different practice levels.</p>
+            <p> The software process dimension examines the practices that support the components characterizing the software process in agile methods.</p>
+            <p>39</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 38: أدوات التحليل رباعية الأبعاد (DAT)</h2>
+            <p> بُعد قيم Agile هو بُعد كمي يتحقق من وجود المرونة في طرق Agile على مستوى العملية والممارسة.</p>
+            <p> بُعد المرونة يفحص دعم توصيف قيم Agile في مستويات الممارسة المختلفة.</p>
+            <p> بُعد عملية البرمجيات يفحص الممارسات التي تدعم المكونات التي تميز عملية البرمجيات في طرق Agile.</p>
+            <p>39</p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 39: Proposed framework</h2>
+             <p>40</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 39: الإطار المقترح</h2>
+            <p>40</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 40: 4DAT( Search GUI module)</h2>
+            <p>60</p>
+            <p>Building search interface</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>XP</th>
+                        <th>Wx</th>
+                        <th>SCRUM</th>
+                        <th>WS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Task size ≤ 40 Hours</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>> 40 Hours</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Team ≤10</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>≤ 10 and Distributed</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Code style</td>
+                        <td>Clean and simple</td>
+                        <td>1</td>
+                        <td>Not specified</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>Technology environment (tools, compilers)</td>
+                        <td>Quick feedback required</td>
+                        <td>1</td>
+                        <td>Not specified</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Physical environment</td>
+                        <td>Co-located</td>
+                        <td>1</td>
+                        <td>Distributed</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Business culture</td>
+                        <td>Collaborative</td>
+                        <td>1</td>
+                        <td>Not specified</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>Total</td>
+                        <td>6</td>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Wx , Ws : 1 if the criterion was met by the specified process, 0 otherwise</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 40: أدوات التحليل رباعية الأبعاد (4DAT) (وحدة واجهة المستخدم الرسومية للبحث)</h2>
+            <p>60</p>
+            <p>بناء واجهة البحث</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>المعايير</th>
+                        <th>XP</th>
+                        <th>Wx</th>
+                        <th>سكروم</th>
+                        <th>Ws</th>
+                        <th>الإجمالي</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>حجم المهمة ≤ 40 ساعة</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>> 40 ساعة</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>حجم الفريق ≤ 10</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>≤ 10 وموزع</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>أسلوب الكود</td>
+                        <td>نظيف وبسيط</td>
+                        <td>1</td>
+                        <td>غير محدد</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>بيئة التكنولوجيا (أدوات، مترجمات)</td>
+                        <td>مطلوب تغذية راجعة سريعة</td>
+                        <td>1</td>
+                        <td>غير محدد</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>البيئة المادية</td>
+                        <td>متواجدين في نفس الموقع</td>
+                        <td>1</td>
+                        <td>موزع</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>ثقافة الأعمال</td>
+                        <td>تعاونية</td>
+                        <td>1</td>
+                        <td>غير محدد</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>الإجمالي</td>
+                        <td>6</td>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Wx ، Ws : 1 إذا تم استيفاء المعيار من خلال العملية المحددة، 0 بخلاف ذلك</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 41: 4DAT( search GUI module)</h2>
+            <p> The selection degrees for building the “search module interface”.</p>
+            <p> The scope degree of XP was 6/8 = 0.75, while it was 2/8= .25 for SCRUM.</p>
+            <p> So, the appropriate methodology in this case was XP.</p>
+            <p>61</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 41: أدوات التحليل رباعية الأبعاد (4DAT) (وحدة واجهة المستخدم الرسومية للبحث)</h2>
+            <p> درجات الاختيار لبناء "واجهة وحدة البحث".</p>
+            <p> كانت درجة نطاق XP هي 6/8 = 0.75، بينما كانت 2/8 = 0.25 لـ SCRUM.</p>
+            <p> لذلك، كانت المنهجية المناسبة في هذه الحالة هي XP.</p>
+            <p>61</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 42: 4DAT( Search coding and testing)</h2>
+            <p>62</p>
+            <p>Search coding and testing</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>XP</th>
+                        <th>Wx</th>
+                        <th>SCRUM</th>
+                        <th>WS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Task size ≤ 40 Hours</td>
+                        <td>0</td>
+                        <td></td>
+                        <td>> 40 Hours</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Team ≤10</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>≤ 10 and Distributed</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>Code style</td>
+                        <td>Clean and simple</td>
+                        <td>0</td>
+                        <td>Not specified</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Technology environment (tools, compilers)</td>
+                        <td>Quick feedback required</td>
+                        <td>1</td>
+                        <td>Not specified</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Physical environment</td>
+                        <td>Co-located</td>
+                        <td>0</td>
+                        <td>Distributed</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>Business culture</td>
+                        <td>Collaborative</td>
+                        <td>1</td>
+                        <td>Not specified</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>Total</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>5</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Wx , Ws : 1 if the criterion was met by the specified process, 0 otherwise</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 42: أدوات التحليل رباعية الأبعاد (4DAT) (برمجة واختبار البحث)</h2>
+            <p>62</p>
+            <p>برمجة واختبار البحث</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>المعايير</th>
+                        <th>XP</th>
+                        <th>Wx</th>
+                        <th>سكروم</th>
+                        <th>Ws</th>
+                        <th>الإجمالي</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>حجم المهمة ≤ 40 ساعة</td>
+                        <td>0</td>
+                        <td></td>
+                        <td>> 40 ساعة</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>حجم الفريق ≤ 10</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>≤ 10 وموزع</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>أسلوب الكود</td>
+                        <td>نظيف وبسيط</td>
+                        <td>0</td>
+                        <td>غير محدد</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>بيئة التكنولوجيا (أدوات، مترجمات)</td>
+                        <td>مطلوب تغذية راجعة سريعة</td>
+                        <td>1</td>
+                        <td>غير محدد</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>البيئة المادية</td>
+                        <td>متواجدين في نفس الموقع</td>
+                        <td>0</td>
+                        <td>موزع</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                     <tr>
+                        <td>ثقافة الأعمال</td>
+                        <td>تعاونية</td>
+                        <td>1</td>
+                        <td>غير محدد</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                     <tr>
+                        <td>الإجمالي</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>5</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Wx ، Ws : 1 إذا تم استيفاء المعيار من خلال العملية المحددة، 0 بخلاف ذلك</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 43: 4DAT ( Search coding and testing)</h2>
+            <p> The selection degrees for building the “search coding and testing” was calculated according to 4-DAT.</p>
+            <p> The scope degree of XP was 3/8 = 0.37, while it was 5/8= .63 for SCRUM.</p>
+            <p> So, the appropriate methodology in this case was SCRUM.</p>
+            <p>63</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 43: أدوات التحليل رباعية الأبعاد (4DAT) (برمجة واختبار البحث)</h2>
+            <p> تم حساب درجات الاختيار لبناء "برمجة واختبار البحث" وفقًا لـ 4-DAT.</p>
+            <p> كانت درجة نطاق XP هي 3/8 = 0.37، بينما كانت 5/8 = 0.63 لـ SCRUM.</p>
+            <p> لذلك، كانت المنهجية المناسبة في هذه الحالة هي SCRUM.</p>
+            <p>63</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 44: Methodology selections :BSIC Portal PB</h2>
+            <p>64</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Main Task</th>
+                        <th>Task name</th>
+                        <th>SCRUM</th>
+                        <th>XP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Defining database</td>
+                        <td>Database implementation using SQL server</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Entity Relational Schema , Relational Schema, Normalization</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>2</td>
+                        <td>Design the GUI</td>
+                        <td>Home page, Admin page, Center ‘s Journal, Educational forum</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Banner animation, Web services (Signup, Sign in , Edit profile, Unsubscribe, Sign out , Password recovery, Search ), Today courses, Courses Register, Lessons Library, Center News, About us page</td>
+                        <td></td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>3</td>
+                        <td>Coding</td>
+                        <td>Home page, Admin page, Password recovery, Edit profile, Unsubscribe, Search, Today courses, Courses Registration, Center Journal, Educational forum, Lessons Library</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>About us page, contact Us, Users login, Logout</td>
+                        <td></td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td>Testing & integration</td>
+                        <td>Home page, Admin page, Users login, Password recovery, Edit profile, Unsubscribe, Logout, contact Us, Search, Today courses, Courses Registration, Center Journal, Educational forum, Lessons Library, About us page</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>5</td>
+                        <td>Planning the training requirements portal in training center</td>
+                        <td>Homepage, users login, verification module , user control panel(UCP), supervisors control panel (SCP) ,list of values (LOV), Courses registration, help, previous courses , Password recovery, Edit profile, Unsubscribe, Logout, contact Us, Search, Reports.</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>Site map</td>
+                        <td>Site map structure</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 44: اختيارات المنهجية: بوابة BSIC PB</h2>
+            <p>64</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>المهمة الرئيسية</th>
+                        <th>اسم المهمة</th>
+                        <th>سكروم</th>
+                        <th>XP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>تعريف قاعدة البيانات</td>
+                        <td>تنفيذ قاعدة البيانات باستخدام SQL server</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>مخطط الكيان العلائقي، المخطط العلائقي، التطبيع</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>2</td>
+                        <td>تصميم واجهة المستخدم الرسومية</td>
+                        <td>الصفحة الرئيسية، صفحة المسؤول، مجلة المركز، المنتدى التعليمي</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>تحريك اللافتة، خدمات الويب (التسجيل، تسجيل الدخول، تعديل الملف الشخصي، إلغاء الاشتراك، تسجيل الخروج، استعادة كلمة المرور، البحث)، دورات اليوم، تسجيل الدورات، مكتبة الدروس، أخبار المركز، صفحة من نحن</td>
+                        <td></td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>3</td>
+                        <td>البرمجة</td>
+                        <td>الصفحة الرئيسية، صفحة المسؤول، استعادة كلمة المرور، تعديل الملف الشخصي، إلغاء الاشتراك، البحث، دورات اليوم، تسجيل الدورات، مجلة المركز، المنتدى التعليمي، مكتبة الدروس</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td>صفحة من نحن، اتصل بنا، تسجيل دخول المستخدمين، تسجيل الخروج</td>
+                        <td></td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td>الاختبار والتكامل</td>
+                        <td>الصفحة الرئيسية، صفحة المسؤول، تسجيل دخول المستخدمين، استعادة كلمة المرور، تعديل الملف الشخصي، إلغاء الاشتراك، تسجيل الخروج، اتصل بنا، البحث، دورات اليوم، تسجيل الدورات، مجلة المركز، المنتدى التعليمي، مكتبة الدروس، صفحة من نحن</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>5</td>
+                        <td>تخطيط بوابة متطلبات التدريب في مركز التدريب</td>
+                        <td>الصفحة الرئيسية، تسجيل دخول المستخدمين، وحدة التحقق، لوحة تحكم المستخدم (UCP)، لوحة تحكم المشرفين (SCP)، قائمة القيم (LOV)، تسجيل الدورات، المساعدة، الدورات السابقة، استعادة كلمة المرور، تعديل الملف الشخصي، إلغاء الاشتراك، تسجيل الخروج، اتصل بنا، البحث، التقارير.</td>
+                        <td>√</td>
+                        <td>√</td>
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>خريطة الموقع</td>
+                        <td>هيكل خريطة الموقع</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 45: Requirement Engineering</h2>
+            <p> RE refers to the process of defining, documenting, and maintaining requirements in the engineering design process.</p>
+            <p> It provides the appropriate mechanism to understand what the customer desires, analyzing the need, and assessing feasibility, negotiating a reasonable solution, specifying the solution clearly, validating the specifications and managing the requirements as they are transformed into a working system.</p>
+            <p>21</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 45: هندسة المتطلبات</h2>
+            <p> تشير هندسة المتطلبات (RE) إلى عملية تحديد وتوثيق وصيانة المتطلبات في عملية التصميم الهندسي.</p>
+            <p> توفر الآلية المناسبة لفهم ما يريده العميل، وتحليل الحاجة، وتقييم الجدوى، والتفاوض على حل معقول، وتحديد الحل بوضوح، والتحقق من المواصفات، وإدارة المتطلبات أثناء تحويلها إلى نظام عامل.</p>
+            <p>21</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 46: Requirement Engineering Process</h2>
+            <p> It is a four-step process, which includes –</p>
+            <ol>
+                <li>Feasibility Study</li>
+                <li>Requirement Elicitation and Analysis</li>
+                <li>Software Requirement Specification</li>
+                <li>Software Requirement Validation</li>
+                <li>Software Requirement Management</li>
+            </ol>
+            <p>22</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 46: عملية هندسة المتطلبات</h2>
+            <p> إنها عملية من أربع خطوات، والتي تتضمن -</p>
+            <ol>
+                <li>دراسة الجدوى</li>
+                <li>استخلاص وتحليل المتطلبات</li>
+                <li>مواصفات متطلبات البرمجيات</li>
+                <li>التحقق من صحة متطلبات البرمجيات</li>
+                <li>إدارة متطلبات البرمجيات</li>
+            </ol>
+            <p>22</p>
+        </div>
+    </div>
+     <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 47: Requirement Engineering Process</h2>
+             <p>23</p>
+            <p><em>[Content is likely a diagram or image and not translatable text]</em></p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 47: عملية هندسة المتطلبات</h2>
+            <p>23</p>
+             <p><em>[المحتوى على الأرجح رسم بياني أو صورة وغير قابل للترجمة كنص]</em></p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 48: Testing is done in different forms at every phase of SDLC</h2>
+            <p> During the requirement gathering phase, the analysis and verification of requirements are also considered as testing.</p>
+            <p> Reviewing the design in the design phase with the intent to improve the design is also considered as testing.</p>
+            <p> Testing performed by a developer on completion of the code is also categorized as testing.</p>
+            <p>8</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 48: يتم إجراء الاختبار بأشكال مختلفة في كل مرحلة من مراحل دورة حياة تطوير البرمجيات (SDLC)</h2>
+            <p> خلال مرحلة جمع المتطلبات، يعتبر تحليل المتطلبات والتحقق منها أيضًا اختبارًا.</p>
+            <p> مراجعة التصميم في مرحلة التصميم بهدف تحسين التصميم يعتبر أيضًا اختبارًا.</p>
+            <p> الاختبار الذي يقوم به المطور عند الانتهاء من الكود يتم تصنيفه أيضًا على أنه اختبار.</p>
+            <p>8</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 49: When to Stop Testing?</h2>
+            <p> It is difficult to determine when to stop testing, as testing is a never-ending process and no one can claim that a software is 100% tested.</p>
+            <p> The following aspects are to be considered for stopping the testing process −</p>
+            <ul>
+                <li>Testing Deadlines</li>
+                <li>Completion of test case execution</li>
+                <li>Completion of functional and code coverage to a certain point</li>
+                <li>Bug rate falls below a certain level and no high-priority bugs are identified</li>
+                <li>Management decision</li>
+            </ul>
+            <p>9</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 49: متى تتوقف عن الاختبار؟</h2>
+            <p> من الصعب تحديد متى يجب التوقف عن الاختبار، حيث أن الاختبار عملية لا تنتهي ولا يمكن لأحد أن يدعي أن البرنامج تم اختباره بنسبة 100%.</p>
+            <p> يجب مراعاة الجوانب التالية لوقف عملية الاختبار -</p>
+            <ul>
+                <li>مواعيد نهائية للاختبار</li>
+                <li>الانتهاء من تنفيذ حالات الاختبار</li>
+                <li>الانتهاء من التغطية الوظيفية وتغطية الكود إلى نقطة معينة</li>
+                <li>انخفاض معدل الأخطاء إلى ما دون مستوى معين وعدم تحديد أخطاء ذات أولوية عالية</li>
+                <li>قرار الإدارة</li>
+            </ul>
+            <p>9</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 50: Verification & Validation</h2>
+            <p> These two terms are very confusing for most people, who use them interchangeably.</p>
+            <p> The following table highlights the differences between verification and validation.</p>
+            <p>10</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 50: التحقق والتثبت</h2>
+            <p> هذان المصطلحان مربكان للغاية لمعظم الناس، الذين يستخدمونهما بالتبادل.</p>
+            <p> يبرز الجدول التالي الاختلافات بين التحقق والتثبت.</p>
+            <p>10</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 51: Verification & Validation</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Verification</th>
+                        <th>Validation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Verification addresses the concern: "Are you building it right?"</td>
+                        <td>Validation addresses the concern: "Are you building the right thing?"</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ensures that the software system meets all the functionality.</td>
+                        <td>Ensures that the functionalities meet the intended behavior.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Verification takes place first and includes the checking for documentation, code, etc.</td>
+                        <td>Validation occurs after verification and mainly involves the checking of the overall product.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Done by developers.</td>
+                        <td>Done by testers.</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>It has static activities, as it includes collecting reviews, walkthroughs, and inspections to verify a software.</td>
+                        <td>It has dynamic activities, as it includes executing the software against the requirements.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>It is an objective process and no subjective decision should be needed to verify a software.</td>
+                        <td>It is a subjective process and involves subjective decisions on how well a software works.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>11</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 51: التحقق والتثبت</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>الرقم</th>
+                        <th>التحقق (Verification)</th>
+                        <th>التثبت (Validation)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>يتناول التحقق السؤال: "هل تبنيه بشكل صحيح؟"</td>
+                        <td>يتناول التثبت السؤال: "هل تبني الشيء الصحيح؟"</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>يضمن أن نظام البرمجيات يلبي جميع الوظائف.</td>
+                        <td>يضمن أن الوظائف تلبي السلوك المقصود.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>يحدث التحقق أولاً ويتضمن فحص التوثيق والكود وما إلى ذلك.</td>
+                        <td>يحدث التثبت بعد التحقق ويتضمن بشكل أساسي فحص المنتج الكلي.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>يتم بواسطة المطورين.</td>
+                        <td>يتم بواسطة المختبرين.</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>لديها أنشطة ثابتة، حيث تتضمن جمع المراجعات والمشاهدات والتفتيش للتحقق من البرنامج.</td>
+                        <td>لديها أنشطة ديناميكية، حيث تتضمن تنفيذ البرنامج مقابل المتطلبات.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>إنها عملية موضوعية ولا ينبغي أن تكون هناك حاجة لقرار شخصي للتحقق من البرنامج.</td>
+                        <td>إنها عملية ذاتية وتتضمن قرارات شخصية حول مدى جودة عمل البرنامج.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>11</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 52: Case Study: Score Test Plan</h2>
+            <p>Field Name Student.Score</p>
+            <p>Validation Type Range Check</p>
+            <p>Data Type Integer</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data Entered</th>
+                        <th>Type Of Test</th>
+                        <th>Expected Output</th>
+                        <th>Actual Output</th>
+                        <th>Pass/Fail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>40</td>
+                        <td>Normal</td>
+                        <td>Accept</td>
+                        <td>Accepted</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>Extreme</td>
+                        <td>Accept</td>
+                        <td>Accepted</td>
+                        <td>Pass</td>
+                    </tr>
+                     <tr>
+                        <td>100</td>
+                        <td></td>
+                        <td>Accept</td>
+                        <td>Accepted</td>
+                        <td>Pass</td>
+                    </tr>
+                     <tr>
+                        <td>-80</td>
+                        <td>Abnormal</td>
+                        <td>Reject</td>
+                        <td>Rejected</td>
+                        <td>Pass</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>30</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 52: دراسة حالة: خطة اختبار النتيجة</h2>
+            <p>اسم الحقل Student.Score</p>
+            <p>نوع التحقق فحص النطاق (Range Check)</p>
+            <p>نوع البيانات عدد صحيح (Integer)</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>البيانات المدخلة</th>
+                        <th>نوع الاختبار</th>
+                        <th>الإخراج المتوقع</th>
+                        <th>الإخراج الفعلي</th>
+                        <th>نجاح/فشل</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>40</td>
+                        <td>عادي</td>
+                        <td>قبول</td>
+                        <td>مقبول</td>
+                        <td>نجاح</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>متطرف</td>
+                        <td>قبول</td>
+                        <td>مقبول</td>
+                        <td>نجاح</td>
+                    </tr>
+                     <tr>
+                        <td>100</td>
+                        <td></td>
+                        <td>قبول</td>
+                        <td>مقبول</td>
+                        <td>نجاح</td>
+                    </tr>
+                     <tr>
+                        <td>-80</td>
+                        <td>غير طبيعي</td>
+                        <td>رفض</td>
+                        <td>مرفوض</td>
+                        <td>نجاح</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>30</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 53: Case Study: DoB</h2>
+            <p>Field Name Student.DoB</p>
+            <p>Validation Type Formt Check (dd/mm/yyyy)</p>
+            <p>Data Type Date</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Data Entered</th>
+                        <th>Type Of Test</th>
+                        <th>Expected Output</th>
+                        <th>Actual Output</th>
+                        <th>Pass/Fail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/04/2020</td>
+                        <td>Normal</td>
+                        <td>Accept</td>
+                        <td>Accepted</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>1.Dec.2020</td>
+                        <td>Abnormal</td>
+                        <td>Reject</td>
+                        <td>Rejected</td>
+                        <td>Pass</td>
+                    </tr>
+                     <tr>
+                        <td>12/31/19</td>
+                        <td>Abnormal</td>
+                        <td>Reject</td>
+                        <td>Rejected</td>
+                        <td>Pass</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>31</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 53: دراسة حالة: تاريخ الميلاد</h2>
+            <p>اسم الحقل Student.DoB</p>
+            <p>نوع التحقق فحص التنسيق (dd/mm/yyyy)</p>
+            <p>نوع البيانات تاريخ (Date)</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>البيانات المدخلة</th>
+                        <th>نوع الاختبار</th>
+                        <th>الإخراج المتوقع</th>
+                        <th>الإخراج الفعلي</th>
+                        <th>نجاح/فشل</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/04/2020</td>
+                        <td>عادي</td>
+                        <td>قبول</td>
+                        <td>مقبول</td>
+                        <td>نجاح</td>
+                    </tr>
+                    <tr>
+                        <td>1.Dec.2020</td>
+                        <td>غير طبيعي</td>
+                        <td>رفض</td>
+                        <td>مرفوض</td>
+                        <td>نجاح</td>
+                    </tr>
+                     <tr>
+                        <td>12/31/19</td>
+                        <td>غير طبيعي</td>
+                        <td>رفض</td>
+                        <td>مرفوض</td>
+                        <td>نجاح</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>31</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+    <div class="slide-container">
+        <div class="slide-original">
+            <h2>Slide 54: Software Testing Tools</h2>
+            <p> The following tools can be used for automation testing −</p>
+            <ul>
+                <li>HP Quick Test Professional</li>
+                <li>Selenium</li>
+                <li>IBM Rational Functional Tester</li>
+                <li>SilkTest</li>
+                <li>TestComplete</li>
+                <li>Testing Anywhere</li>
+                <li>WinRunner</li>
+                <li>LoadRunner</li>
+                <li>Visual Studio Test Professional</li>
+                <li>WATIR</li>
+            </ul>
+            <p>32</p>
+        </div>
+        <div class="slide-translation">
+            <h2>الشريحة 54: أدوات اختبار البرمجيات</h2>
+            <p> يمكن استخدام الأدوات التالية لاختبار الأتمتة -</p>
+            <ul>
+                <li>HP Quick Test Professional</li>
+                <li>Selenium</li>
+                <li>IBM Rational Functional Tester</li>
+                <li>SilkTest</li>
+                <li>TestComplete</li>
+                <li>Testing Anywhere</li>
+                <li>WinRunner</li>
+                <li>LoadRunner</li>
+                <li>Visual Studio Test Professional</li>
+                <li>WATIR</li>
+            </ul>
+            <p>32</p>
+        </div>
+    </div>
+    <hr class="page-separator">
+
+</body>
+</html>
